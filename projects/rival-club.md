@@ -73,7 +73,7 @@ Checklist of the most important security countermeasures when setting up your in
 - [x] ~~Create ServiceAccount with limit RBAC for dev~~ **We don't have dev account in K8s cluster**
 - [x] Only Devops has Cluster Admin permisison (k8s config)
 - [x] Sensitive config should be stored as Secret
-- [x] Review helm chart before helm install (verify docker image, sidecar container, owner, or that helm chart)
+- [x] Review helm chart before helm install (verify docker image, sidecar container, owner)
 
 ## Database
 
