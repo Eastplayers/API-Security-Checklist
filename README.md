@@ -7,7 +7,7 @@ Checklist of the most important security countermeasures when designing, testing
 ## Authentication
 
 - [ ] Use standard authentication instead (recommend **Bearer Authentication**) (e.g., [JWT](https://jwt.io/)).
-- [ ] Use `Rate limit` in Login to prevent brute force attack
+- [ ] Use `Rate limit` in Login, Reset Password, Forgot Password to prevent brute force attack
 - [ ] Use encryption on all sensitive data. (password, user information, ...)
 
 ### JWT (JSON Web Token)
